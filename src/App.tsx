@@ -12,7 +12,14 @@ const App = () => {
       </header>
       <div className={styles.container}>
         <div className={styles.leftSide}>
-          ...
+          <h1>Calcule seu IMC</h1>
+          <p>O IMC, ou Índice de Massa Corporal, é uma medida que estima a quantidade de gordura corporal de uma pessoa, utilizando seu peso e altura.</p>
+
+          <input type="number" 
+          placeholder='Digite a altura em metros'
+                 
+          />
+        
         </div>
         <div className={styles.rightSide}>
           ...
